@@ -267,19 +267,19 @@ nav li a {
 .rake {
   background-color: white;
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
-  width: 320px;
-  padding: 20px;
+  width: 280px;
+  padding: 10px;
   border-radius: 20px;
   height: 500px;
-}
-.warm {
-  padding: 30px;
 }
 .control {
   background-color: red;
 }
 .raw {
   display: flex;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
 }
 .phone {
   background: linear-gradient(to right, rgb(32, 156, 190), rgb(111, 24, 204));
@@ -388,7 +388,7 @@ nav li a {
 .river {
   display: flex;
   flex-direction: row;
-  gap: 200px;
+  gap: 100px;
   padding: 100px;
 }
 .lake {
