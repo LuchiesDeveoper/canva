@@ -1,0 +1,628 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+  border-bottom: 1px solid blue;
+}
+.rem {
+  background-color: blue;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+}
+nav li a {
+  text-decoration: none;
+}
+.btn {
+  gap: 1000px;
+}
+.box {
+  background: linear-gradient(to right, purple, blue);
+  width: 100px;
+  border-radius: 10px;
+  height: 50px;
+  border: none;
+  margin-right: 10px;
+  color: white;
+}
+.red {
+  background-color: white;
+  border-radius: 10px;
+  width: 100px;
+  height: 50px;
+  border: none;
+  color: black;
+}
+.home {
+  font-size: 20px;
+}
+.home ul a {
+  color: white;
+}
+.rem {
+  background: linear-gradient(to right, rgb(32, 156, 190), rgb(111, 24, 204));
+}
+.class {
+  font-size: 90px;
+  color: white;
+  font-family: Palace Script MT;
+}
+.what {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2rem;
+}
+.create {
+  font-size: 70px;
+  color: white;
+}
+.stop {
+  font-size: 20px;
+  padding: 2rem;
+  color: white;
+}
+
+.ram {
+  background-color: blueviolet;
+  border-radius: 10px;
+  width: 140px;
+  height: 50px;
+  border: none;
+  color: white;
+}
+.all {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px;
+  margin-top: 50px;
+}
+.all img {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  height: 50vh;
+  width: 20vw;
+}
+.last img {
+  height: 50vh;
+}
+.team {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 500vh;
+}
+.free {
+  background-color: antiquewhite;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  height: 350px;
+  padding: 20px;
+}
+.get {
+  padding: 20px;
+}
+.green {
+  padding: 20px;
+}
+.blue {
+  padding: 20px;
+}
+
+.rat {
+  background-color: blueviolet;
+  border-radius: 10px;
+  width: 350px;
+  height: 40px;
+  border: none;
+  color: white;
+}
+.open {
+  display: flex;
+  flex-direction: row;
+}
+.ream {
+  display: flex;
+  flex-direction: row;
+}
+.pot {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  padding: 120px;
+}
+.dog {
+  border-radius: 10px;
+  width: 350px;
+  height: 40px;
+  border: none;
+  color: white;
+  margin-top: 30px;
+}
+.green {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.yello h3 {
+  font-size: 80px;
+}
+.yello p {
+  font-size: 30px;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+.good {
+  display: flex;
+  flex-direction: row;
+  width: 800px;
+  border-radius: 30px;
+  height: 70px;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.3);
+}
+.good button {
+  width: 100px;
+  background-color: blue;
+  border: none;
+  border-radius: 30px;
+  height: 50px;
+  color: white;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.good ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+  font-size: 20px;
+}
+.good li {
+  padding: 10px;
+}
+.res {
+  padding: 60px;
+}
+.res h3 {
+  font-size: 40px;
+}
+.res p {
+  font-size: 30px;
+}
+.reaf {
+  display: flex;
+  flex-direction: column;
+}
+.ups img {
+  width: 113%;
+  height: 310px;
+  border-radius: 10px;
+}
+
+.up button {
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  background-color: white;
+  margin-top: 10px;
+}
+.tape {
+  display: flex;
+  flex-direction: row;
+  background-color: pink;
+  height: 370px;
+  margin: 30px;
+  border-radius: 20px;
+}
+.res {
+  display: flex;
+  justify-content: space-between;
+  gap: 7rem;
+}
+.tar {
+  width: 350px;
+  margin-bottom: 30px;
+}
+.cron {
+  width: 20px;
+}
+.rep {
+  background-color: rgb(111, 107, 107);
+  border-radius: 30px;
+  width: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: none;
+  padding: 2px;
+  gap: 5px;
+  color: white;
+}
+.get button {
+  width: 130px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  background-color: white;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+}
+.rake {
+  background-color: white;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+  width: 320px;
+  padding: 20px;
+  border-radius: 20px;
+  height: 500px;
+}
+.warm {
+  padding: 30px;
+}
+.control {
+  background-color: red;
+}
+.raw {
+  display: flex;
+}
+.phone {
+  background: linear-gradient(to right, rgb(32, 156, 190), rgb(111, 24, 204));
+}
+.AI {
+  display: flex;
+  flex-direction: row;
+  gap: 250px;
+  padding: 70px;
+  color: white;
+  font-size: 20px;
+}
+.niger {
+  background-color: blue;
+  box-shadow: 0 0 5px 0 greenyellow;
+  padding: 30px;
+  border-radius: 20px;
+  width: 800px;
+  height: 150px;
+}
+.togo {
+  background-color: blue;
+  box-shadow: 0 0 5px 0 greenyellow;
+  padding: 30px;
+  border-radius: 20px;
+  width: 800px;
+  height: 150px;
+}
+.AI :hover {
+  background-color: greenyellow;
+  cursor: pointer;
+}
+.grow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-size: 50px;
+  gap: 10px;
+}
+.grow h2 {
+  font-family: Bookman Old Style;
+}
+.grow p {
+  font-size: 35px;
+}
+.grow button {
+  width: 130px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  background-color: white;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+  font-size: 17px;
+}
+.ray {
+  border-radius: 50%;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.3);
+  border: none;
+  font-size: 50px;
+  width: 50px;
+  margin: 20px;
+}
+.everything {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
+.contain {
+  background-color: white;
+  padding: 20px;
+  margin-top: 50px;
+  border-radius: 20px;
+  width: 90vw;
+  margin: 70px;
+}
+.sun {
+  background-color: white;
+  border-radius: 50px;
+  border: none;
+  box-shadow: 0 0 10px 0 rgb(0, 195, 255);
+  width: 120px;
+}
+.moon {
+  background-color: white;
+  border-radius: 50px;
+  border: none;
+  box-shadow: 0 0 10px 0 rgb(0, 195, 255);
+  width: 120px;
+}
+.star {
+  background-color: white;
+  border-radius: 50px;
+  border: none;
+  box-shadow: 0 0 10px 0 rgb(0, 195, 255);
+  width: 120px;
+}
+.rain {
+  background-color: white;
+  border-radius: 50px;
+  border: none;
+  box-shadow: 0 0 10px 0 rgb(0, 195, 255);
+  width: 120px;
+}
+.river {
+  display: flex;
+  flex-direction: row;
+  gap: 200px;
+  padding: 100px;
+}
+.lake {
+  background: linear-gradient(to bottom, rgb(111, 24, 204), blue);
+  color: white;
+  padding: 30px 0 0 1px;
+}
+.gap {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.river h3 {
+  font-size: 60px;
+  font-family: Bookman Old Style;
+}
+.river p {
+  font-size: 30px;
+}
+.river button {
+  width: 160px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  background-color: white;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+  font-size: 17px;
+}
+.black {
+  width: 600px;
+  border-radius: 30px;
+}
+.student {
+  display: flex;
+  flex-direction: row;
+  gap: 400px;
+  padding-top: 170px;
+}
+.fried {
+  padding: 10px;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.fried h3 {
+  font-size: 18px;
+}
+.staff {
+  display: flex;
+  gap: 100px;
+  padding: 40px;
+}
+.keg {
+  width: 100px;
+  border: none;
+  background-color: white;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+  height: 50px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.jug {
+  width: 70px;
+  border: none;
+  background-color: white;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+  height: 50px;
+  font-size: 20px;
+  border-radius: 7px;
+}
+.boot {
+  display: flex;
+  gap: 20px;
+}
+.group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
+.refree button {
+  border-radius: 100px;
+  width: 50px;
+  background-color: rgb(111, 107, 107);
+}
+/* mobile phones */
+@media (max-width: 678px) {
+  .class h1 {
+    font-size: 50px;
+  }
+  nav ul {
+    display: none;
+    padding: 10px;
+  }
+  .mad h2 {
+    font-size: 30px;
+  }
+  .mad p {
+    font-size: 15px;
+    text-align: center;
+  }
+  .all {
+    display: flex;
+    flex-direction: column;
+  }
+  .all img {
+    width: 100%;
+  }
+  .yello {
+    text-align: center;
+  }
+  .yello h3 {
+    font-size: 20px;
+  }
+  .yello p {
+    font-size: 12px;
+  }
+  .good {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 45px;
+  }
+  .good ul {
+    display: flex;
+    font-size: 10px;
+    gap: 0;
+  }
+  .good button {
+    width: 100px;
+    height: 30px;
+  }
+  .res {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    margin: 0;
+  }
+  .tape {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 500px;
+    width: 100%;
+    margin: 0;
+  }
+  .reaf h3 {
+    font-size: 20px;
+  }
+  .reaf p {
+    font-size: 15px;
+  }
+  .ups img {
+    width: 300px;
+    height: 250px;
+  }
+  .raw {
+    display: flex;
+    flex-direction: column;
+  }
+  .grow h2 {
+    font-size: 25px;
+    align-items: center;
+    padding: 20px;
+  }
+  .grow p {
+    font-size: 25px;
+    padding: 20px;
+  }
+  .contain {
+    font-size: 10px;
+    width: 300px;
+    padding: 10px;
+    margin: 38px;
+    align-items: center;
+  }
+  .contain h2 {
+    font-size: 20px;
+    align-items: center;
+    padding: 27px;
+  }
+  .everything {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  .AI {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+  }
+  .niger {
+    width: 300px;
+    font-size: 20px;
+    height: 200px;
+  }
+  .togo {
+    width: 300px;
+    font-size: 20px;
+    height: 200px;
+  }
+  .gap h3 {
+    font-size: 25px;
+  }
+  .gap {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .gap p {
+    font-size: 20px;
+  }
+  .student {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .staff {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .river {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+  .black {
+    width: 300px;
+  }
+}
