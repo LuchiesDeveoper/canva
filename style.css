@@ -216,7 +216,6 @@ nav li a {
   border-radius: 10px;
 }
 body {
-
 }
 .up button {
   width: 100px;
@@ -485,10 +484,12 @@ body {
   }
   nav ul {
     display: none;
-    padding: 10px;
   }
   .mad h2 {
     font-size: 30px;
+  }
+  .btn{
+    padding: 30px;
   }
   .mad p {
     font-size: 15px;
@@ -513,17 +514,18 @@ body {
   .good {
     display: flex;
     align-items: center;
-    width: 100%;
+    width: 94%;
     height: 45px;
   }
   .good ul {
     display: flex;
-    font-size: 10px;
+    font-size: 7px;
     gap: 0;
   }
   .good button {
-    width: 100px;
+    width: 70px;
     height: 30px;
+     
   }
   .res {
     display: flex;
@@ -537,7 +539,7 @@ body {
     flex-direction: column;
     gap: 30px;
     height: 500px;
-    width: 100%;
+    width: 95%;
     margin: 0;
   }
   .reaf h3 {
@@ -547,8 +549,8 @@ body {
     font-size: 15px;
   }
   .ups img {
-    width: 300px;
-    height: 250px;
+    width: 200px;
+    height: 230px;
   }
   .raw {
     display: flex;
@@ -565,7 +567,7 @@ body {
   }
   .contain {
     font-size: 10px;
-    width: 300px;
+    width: 250px;
     padding: 10px;
     margin: 38px;
     align-items: center;
